@@ -9,6 +9,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AMS.API.Controllers.Admin
 {
+    /// <summary>
+    /// RoleController
+    /// </summary>
     [Route("admin/[controller]/[action]")]
     [ApiController]
     public class RoleController : ControllerBase
@@ -26,7 +29,7 @@ namespace AMS.API.Controllers.Admin
 
         /// <summary>
         /// 获取所有Role
-        /// admin/Role/GetList
+        /// Url:admin/Role/GetList
         /// </summary>
         /// <returns></returns>
         [HttpGet]

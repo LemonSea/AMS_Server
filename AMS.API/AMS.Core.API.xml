@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AMS.API</name>
+    </assembly>
+    <members>
+        <member name="T:AMS.API.Controllers.Admin.RoleController">
+            <summary>
+            RoleController
+            </summary>
+        </member>
+        <member name="M:AMS.API.Controllers.Admin.RoleController.#ctor(AMS.Model.CoreDbContext)">
+            <summary>
+            构造注入
+            </summary>
+            <param name="coreDbContext"></param>
+        </member>
+        <member name="M:AMS.API.Controllers.Admin.RoleController.RoleGetList">
+            <summary>
+            获取所有Role
+            Url:admin/Role/GetList
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AMS.API.Startup">
+            <summary>
+            Startup 启动相关（依赖注入，跨域请求，Redis缓存）
+            </summary>
+        </member>
+        <member name="M:AMS.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            构造函数（Startup）
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:AMS.API.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:AMS.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            ConfigureServices
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:AMS.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
