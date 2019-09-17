@@ -6,5 +6,6 @@ namespace AMS.Bussiness.Admin
 {
     class RoleBll
     {
+
     }
 }
